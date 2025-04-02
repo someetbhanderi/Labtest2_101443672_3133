@@ -1,0 +1,27 @@
+<div class="details-container">
+  <h2>101380593-lab-test2-comp3133</h2>
+
+  <div class="details-card">
+    <img [src]="mission.links.mission_patch" alt="Patch" class="patch" />
+
+    <h3>Mission - {{ mission.mission_name }}</h3>
+    <hr />
+    <p><strong>Name:</strong> {{ mission.mission_name }}</p>
+    <p><strong>Launch Year:</strong> {{ mission.launch_year }}</p>
+
+    <h3>Rocket</h3>
+    <hr />
+    <p><strong>Name:</strong> {{ mission.rocket.rocket_name }}</p>
+    <p><strong>Type:</strong> {{ mission.rocket.rocket_type }}</p>
+
+    <h3>Launch Site</h3>
+    <hr />
+    <p><strong>Name:</strong> {{ mission.launch_site.site_name_long }}</p>
+
+    <h3>Launch Details</h3>
+    <hr />
+    <p>{{ mission.details }}</p>
+
+    <button (click)="goBack()">back</button>
+  </div>
+</div>

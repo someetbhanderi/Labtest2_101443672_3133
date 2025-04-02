@@ -1,0 +1,36 @@
+.details-container {
+  background-color: white;
+  padding: 20px;
+}
+
+.details-card {
+  background-color: #fcb973;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.patch {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+hr {
+  margin: 8px 0;
+  border: 1px solid #fff;
+}
+
+button {
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
